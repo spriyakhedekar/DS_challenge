@@ -2,40 +2,34 @@
 Here I have used Python Jupyter Notebook to solve this challenge.
 
   Python Version :Python 3.7.6 (!python -V)
-  
   Jupyter Notebook : 6.0.3
 
 Packages/Liabraries used:
 
    import pandas as pd
-   
    import numpy as np
-   
    import matplotlib.pyplot as plt
-   
    %matplotlib inline
-   
    import seaborn as sns
-   
    from sklearn.linear_model import LogisticRegression
-   
    from sklearn.metrics import confusion_matrix
-   
    from sklearn import metrics
-   
    from sklearn.model_selection import train_test_split
-   
    import pandas_profiling
 
 Coding Style:
 I have commented before each step to show the purpose.
-Also I ran one command at a time to display the output of each step/command,instead of creating funstions and calling them later.
+
+Also I ran one command at a time to display the output of each step/command,instead of creating funstions.
+
 But we can create different functions using def
 e.g. 
 def import_data(csv_fileName):
    data_df = pd.read_csv(csv_fileName, delimiter=':')
-  return data_df
+   return data_df
+  
   we can call this function later in main() function or whereever we need to read input data, we need to  pass the parameter    csvfile with path and inputfile name
+  
 e.g.  data = import_data('./tide-receipt-matching-challenge/data.csv')
 
 Steps followed to resolve this challenge
