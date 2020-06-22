@@ -32,10 +32,12 @@ I have commented before each step to show the purpose.
 Also I ran one command at a time to display the output of each step/command,instead of creating funstions.
 
 But we can create different functions using def
-e.g. 
-def import_data(csv_fileName):
-   data_df = pd.read_csv(csv_fileName, delimiter=':')
-   return data_df
+
+e.g. def import_data(csv_fileName):
+   
+        data_df = pd.read_csv(csv_fileName, delimiter=':')
+   
+         return data_df
   
   we can call this function later in main() function or whereever we need to read input data, we need to  pass the parameter    csvfile with path and inputfile name
   
