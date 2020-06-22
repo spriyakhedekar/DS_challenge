@@ -1,18 +1,30 @@
 # DS_challenge
 Here I have used Python Jupyter Notebook to solve this challenge.
+
   Python Version :Python 3.7.6 (!python -V)
+  
   Jupyter Notebook : 6.0.3
 
 Packages/Liabraries used:
+
    import pandas as pd
+   
    import numpy as np
+   
    import matplotlib.pyplot as plt
+   
    %matplotlib inline
+   
    import seaborn as sns
+   
    from sklearn.linear_model import LogisticRegression
+   
    from sklearn.metrics import confusion_matrix
+   
    from sklearn import metrics
+   
    from sklearn.model_selection import train_test_split
+   
    import pandas_profiling
 
 Coding Style:
