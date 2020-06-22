@@ -1,7 +1,7 @@
 # DS_challenge
 Here I have used Python Jupyter Notebook to solve this challenge.
-. Python Version :Python 3.7.6 (!python -V)
-. Jupyter Notebook : 6.0.3
+  Python Version :Python 3.7.6 (!python -V)
+  Jupyter Notebook : 6.0.3
 
 Packages/Liabraries used:
    import pandas as pd
