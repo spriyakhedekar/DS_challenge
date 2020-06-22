@@ -31,11 +31,11 @@ I have commented before each step to show the purpose.
 
 Also I ran one command at a time to display the output of each step/command,instead of creating funstions.
 
-But we can create different functions using def
+But we can create different functions using def. e.g.
 
-e.g. def import_data(csv_fileName):
-   
-        data_df = pd.read_csv(csv_fileName, delimiter=':')
+      def import_data(csv_fileName)
+      
+         data_df = pd.read_csv(csv_fileName, delimiter=':')
    
          return data_df
   
