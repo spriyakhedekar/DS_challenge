@@ -44,7 +44,7 @@ from sklearn import metrics
 from sklearn.model_selection import train_test_split
 import pandas_profiling
 
-Coding Style: I have commented before each step to show the purpose.
+Coding Style: I have added a comment before each step to show the purpose.
 
 Also I ran one command at a time to display the output of each step/command,instead of creating functions.
 But we can create different functions using def. e.g.
